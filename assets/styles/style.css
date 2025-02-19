@@ -72,11 +72,31 @@ select {
     color: #fff;
 }
 
-button{
+.btn-cadastro{
     padding: 10px 20px;
-    background-image: linear-gradient(#325CC8, #17388e);
+    background-color: #325CC8;
     border: solid 2px #325CC8;
     border-right-width: 5px;
     border-bottom-width:5px ;
     border-radius: 10px;
+    margin-bottom: 20px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 20px;
+
+}
+
+.btn-entrar{
+    padding: 10px 20px;
+    background-image: linear-gradient(#325CC8, #17388e);
+    border: solid 2px #325CC8;
+    border-radius: 10px;  
+}
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+    text-transform: uppercase;
 }
