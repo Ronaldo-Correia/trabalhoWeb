@@ -20,20 +20,19 @@ body {
 }
 
 main {
-    
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 90%;
-    max-width: 1200px;
-    margin-top: 40px;
+    width: 120vh;
+    height: 40vh;
+    max-width: 150vh;
 }
 header {
     background-color: #007bff;
     color: white;
     padding: 20px;
     text-align: center;
-    width: 2400px;
+    width: 2000vh;
 }
 
 .form-container {
@@ -41,7 +40,7 @@ header {
     background-color: rgba(255, 255, 255, 0.9);
     display: flex;
     flex-direction: column;
-    gap: 15px; 
+    gap: 10px; 
     width: 45%; 
     padding: 30px;
     border-radius: 20px;
@@ -50,15 +49,25 @@ header {
     font-size: 20px;}
 
 .form-container input {
-    width: 100%;
+    width: 46vh;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 14px;
 }
+textarea {
+    width: 45vh; 
+    height: 10vh; 
+    resize: none;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+}
 
 .image-container {
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -108,8 +117,9 @@ header {
     width: 200px;
     height: auto;
 }
+
 select {
-    width: 557px; 
+    width: 48vh; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
