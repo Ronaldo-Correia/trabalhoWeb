@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="agendar.css">
     <title>Agendamento</title>
-</head>
-<body>
-    <div class="icon-top">
+</head><div class="icon-top">
         <img src="assets/img/icon.png" alt="">
     </div>
-    <div class="icon-right">
+<div class="icon-right">
         <img src="assets/img/icon2.png" alt="">
     </div>
+    <body>
+    
+    
     <header>
     <div class="title">AGENDAR CONSULTA</div>
     </header>
@@ -40,14 +41,15 @@
             <input type="time" id="horario" name="horario">
             <label for="motivo">Motivo da Consulta:</label>
             <textarea id="motivo" name="motivo" rows="3" placeholder="Descreva o motivo da consulta"></textarea>
+   <button class="btn"onclick="agendarconsulta()">
+            <img class="relogioIMG" src="assets/img/relogio.png" alt="">            
+Agendar</button>
 
-            <button class="btn" onclick="agendarconsulta()">Agendar</button>
-        </div>
-        <div class="image-container">
+        
+    </main>
+<div class="image-container">
             <img src="assets/img/image.png" alt="Imagem de agendamento">
         </div>
-    </main>
-
     <script>
         function agendarconsulta() {
             alert("Função de agendar consulta ainda não implementada!");

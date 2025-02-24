@@ -20,6 +20,7 @@ body {
 }
 
 main {
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -67,23 +68,29 @@ textarea {
 }
 
 .image-container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40%;
+     margin-bottom: 90%;
+     margin-left: 45%;
 }
 
 .image-container img {
+    margin-bottom: 500%;
+
     max-width: 100%;
     height: auto;
 }
 
 .btn {
-    margin-left: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #007bff;
     color: white;
-    width: 160px;
-    height: 50px;    padding: 10px;
+    width: 30%;
+    height: auto;  
+    margin: 0 auto;
+    margin-top: 3%;
+    padding: 10px;
     border-radius: 5px;
     font-size: 20px;
     cursor: pointer;
@@ -119,7 +126,7 @@ textarea {
 }
 
 select {
-    width: 48vh; 
+    width: 47vh; 
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -132,4 +139,10 @@ select:focus {
     outline: none; 
     border-color: #007bff; 
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+.relogioIMG{
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+   
 }
